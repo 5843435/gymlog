@@ -1,0 +1,9 @@
+<html>
+<body>
+<form action = "search.php" method="post">
+êŠF<input type="text" name="place"><br>
+ŽžŠÔF<input type="text" name="time">
+<input type="submit" name="exec" value="ŒŸõ">
+</form>
+</body>
+</html>

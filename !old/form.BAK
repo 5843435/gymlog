@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>改善要望・問い合わせ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+ <div class="container">
+ <form class="form-horizontal" action = "form_check.php" method="POST">
+<blockquote>
+<p>改善要望・問い合わせ</p>
+</blockquote>
+ <span class=" glyphicon glyphicon-user"> 名前</span>
+ <div class="form-group">
+ <div class="col-md-4">
+ <input type="text" id="name" class="form-control" placeholder="任意入力項目です">
+ </div>
+ </div>
+ <span class=" glyphicon glyphicon-envelope"> メールアドレス</span>
+ <div class="form-group">
+ <div class="col-md-4">
+ <input type="email" id="email" class="form-control" placeholder="返信が欲しい方は記入してください">
+ </div>
+ </div>
+ <span class=" glyphicon glyphicon glyphicon-pencil"> 内容</span>
+ <div class="form-group">
+ <div class="col-md-4">
+ <textarea id="inquiry" class="form-control" rows="10"></textarea>
+ </div>
+ </div>
+ <button class="btn btn-primary">
+ <span class="glyphicon glyphicon-send">　送信
+ </button>
+ </form>
+ </div>
+
+<script src="http//code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options -Indexes
+AuthUserFile /var/www/html/bodypumper/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+order deny,allow
+
+<Files inquiry.csv>
+require valid-user
+</Files>
+

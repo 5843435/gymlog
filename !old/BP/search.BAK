@@ -1,0 +1,10 @@
+<html>
+<body>
+<form action = "test.php" method="post"><br>
+<h2>ボディパンプ　プログラム検索</h2>
+場所：<input type="text" name="place"><br>
+時間：<input type="text" name="time">
+<input type="submit" name="exec" value="検索">
+</form>
+</body>
+</html>

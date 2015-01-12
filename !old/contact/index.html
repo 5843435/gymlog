@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>お問い合わせ｜GymLog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="スタジオ・ジムのボディパンププログラム検索ツールなどのGymLogについてのお問い合せはこちら">
+<link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56429220-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+	<header class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="/" class="navbar-brand">GymLog</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="/help/">About Us</a>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Service <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="/BodyPumper">BodyPumper</a></li>
+              </ul>
+				</li>
+				<li>
+						<a href="/help/">Help</a>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="/contact" target="_blank">Contact Us</a></li>
+			</ul>
+		</div>
+		</div>
+	</header>
+
+<br />
+<br />
+<br />
+
+ <div class="container">
+ <form class="form-horizontal" action = "form_check.php" method="POST">
+<blockquote>
+<p>改善要望・問い合わせ</p>
+</blockquote>
+ <span class=" glyphicon glyphicon-user"> 名前</span>
+ <div class="form-group">
+ <div class="col-md-4">
+ <input type="text" name="name" class="form-control" placeholder="任意入力項目です">
+ </div>
+ </div>
+ <span class=" glyphicon glyphicon-envelope"> メールアドレス</span>
+ <div class="form-group">
+ <div class="col-md-4">
+ <input type="email" name="email" class="form-control" placeholder="返信が欲しい方は記入してください">
+ </div>
+ </div>
+ <span class=" glyphicon glyphicon glyphicon-pencil"> 内容</span>
+ <div class="form-group">
+ <div class="col-md-4">
+ <textarea name="inquiry" class="form-control" rows="10"></textarea>
+ </div>
+ </div>
+ <button class="btn btn-primary">
+ <span class="glyphicon glyphicon-send">　送信
+ </button>
+ </form>
+ </div>
+
+<script src="http//code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
